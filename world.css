@@ -1,25 +1,71 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #FCE9F1;
+}
+
+header {
+background-color: #F2B5D4;
+padding: 30px 0;
+text-align: center;
+}
+
+h1 {
+font-family: "Trebuchet MS", Verdana, sans-serif;
+font-size: 40px;
+color: #FFFFFF;
+margin: 0;
+}
+
+#controls {
+width: 60%;
+margin: 40px auto;
+text-align: center;
+}
+
+#country {
+width: 60%;
+padding: 10px;
+border: 1px solid #E3A8C2;
+border-radius: 6px;
+}
+
+button {
+background-color: #E88ABB;
+color:  #FFFFFF;
+border: none;
+padding: 10px 16px;
+margin: 8PX 4px;
+border-radius: 6px;
+cursor:  pointer;
+font-weight: bold;
+}
+
+button:hover {
+background-color: #D975A5;
+}
+
 table {
 width: 90%;
 border-collapse: collapse;
-margin: 20px auto;
+margin: 0 auto;
 background-color: #FFFFFF;
-border: 1px solid #CCCCCC;
+border: 1px solid #EAC5D7
 }
 
 th, td {
-border: 1px solid #DDDDDD;
+border: 1px solid #EAC5D7;
 padding: 10px;
 text-align: left;
-font-size: 16px;
 }
 
 th {
-background-color: #F2F2F2;
-color: #333333;
+background-color: #F7D7E8;
+color: #555;
 font-weight:  bold;
 }
 
 tr:hover {
-background-color: #E6F7FF;
+background-color: #FAE6F1;
 }
-
