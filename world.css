@@ -1,1 +1,25 @@
-/* Add your own styles */
+table {
+width: 90%;
+border-collapse: collapse;
+margin: 20px auto;
+background-color: #FFFFFF;
+border: 1px solid #CCCCCC;
+}
+
+th, td {
+border: 1px solid #DDDDDD;
+padding: 10px;
+text-align: left;
+font-size: 16px;
+}
+
+th {
+background-color: #F2F2F2;
+color: #333333;
+font-weight:  bold;
+}
+
+tr:hover {
+background-color: #E6F7FF;
+}
+
